@@ -7,7 +7,9 @@ body {
 .center {
     text-align: center;
 }
-
+.img-circle {
+    border-radius: 50%;
+}
 .text-big {
     font-size: 300%;
 }
