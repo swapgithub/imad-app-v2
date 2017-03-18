@@ -27,11 +27,11 @@ body {
     height: 200px;
 }
 
-input{
+.input{
     display:block;
 }
 
-form {
+.form {
     border:1px solid #131313;
     padding:10px;
 }
