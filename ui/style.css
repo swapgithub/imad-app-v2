@@ -27,7 +27,7 @@ body {
     height: 200px;
 }
 
-label,input{
+input{
     display:block;
 }
 
