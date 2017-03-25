@@ -24,9 +24,9 @@ app.get('/user-db', function(req, res) {
     //return a response with the results
     pool.query('SELECT * FROM User', function(err, result) {
        if (err)  {
-           res.status(500), send(err, tostring());
+           res.status(500). send(err.tostring());
        } else {
-           res.send(JSON.string.fy(result));
+           res.send(JSON.stringify(result));
        }
     });
 });
