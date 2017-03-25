@@ -8,7 +8,7 @@ var config = {
     database: 'swapgithub',
     host: 'db.imad.hasura-app.io',
     port: '5432',
-    password: process.emv.DB_PASSWORD,
+    password: process.env.DB_PASSWORD,
 };
 
 var app = express();
